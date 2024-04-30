@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to bottom right,rgb(16, 9, 206),rgb(255, 255, 255),rgb(8, 162, 190));
+    animation: BG 5s ease infinite;
+    position: sticky;
+    top: 0;
+    
+}
+@keyframes BG  {
+  0%{  background-position: 0 50%;}
+50% {background-position: 100% 50%;}
+100% {background-position: 0 50%;}
+}
+header h1 {
+    color: rgb(13, 10, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding-top: 20px;
+}
+header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid 2px black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+header nav {
+    margin-top: 50px;
+    margin-right: 10px;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.barra {
+margin-left: 600px;
+margin-top: 30px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #b55656;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    background-color: #2f5ea5;
+    border: solid 2px black;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+}
+ h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(2, 1, 1);
+}
+
+.carosello {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.maglie{
+    display: none;
+    width: 100%;
+}
+.maglie.active{
+    display: block;
+ 
+}
+.maglie img {
+    width: 350px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+body {
+    background:linear-gradient(to bottom right,rgb(8, 162, 190),rgb(255, 255, 255),rgb(16, 9, 206));
+    animation: BG 5s ease infinite;
+}
+
+.acqbtn {
+    background-color: #2f5ea5;
+    border: solid 2px black;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 700px;
+    color: white;
+    text-decoration: none;
+   
+}
