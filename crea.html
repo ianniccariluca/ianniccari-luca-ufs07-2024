@@ -5,7 +5,7 @@
     <title>Crea account</title>
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
-<body>
+<body class="crea">
     <header>
         <img src="assets/img/logo html.png" alt="">
      <H1>Luchitos Football</H1>
@@ -17,5 +17,29 @@
             <a href="index.html" title="Questo lik porta a home">Home</a>
          </nav>
     </header>
+
+    <div class="container">
+        <form action="#">
+          <h2 class="titoletto">Registrazione</h2>
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required placeholder="planetwin365">
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="planetwin@gmail.com">
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="***">
+          </div>
+          <div class="input-group">
+            <label for="confirm-password">Conferma Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required placeholder="***">
+          </div>
+          <button class="registrati">Registrati</button>
+        </form>
+      </div>
 </body>
+
 </html>

@@ -6,7 +6,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background:linear-gradient(to bottom right,rgb(16, 9, 206),rgb(255, 255, 255),rgb(8, 162, 190));
+    background:linear-gradient(to bottom right,rgb(15, 15, 15),rgb(255, 255, 255),rgb(3, 3, 3));
     animation: BG 5s ease infinite;
     position: sticky;
     top: 0;
@@ -17,10 +17,15 @@ header {
 50% {background-position: 100% 50%;}
 100% {background-position: 0 50%;}
 }
+body {
+    background:linear-gradient(to bottom right,rgb(252, 252, 252),rgb(5, 3, 3),rgb(255, 255, 255));
+    animation: BG 5s ease infinite;
+}
+
 header h1 {
     color: rgb(13, 10, 2);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    justify-content: center;
+   margin-left: 250px;
     padding-top: 20px;
 }
 header img {
@@ -42,12 +47,14 @@ header nav a {
 }
 
 .barra {
-margin-left: 600px;
+margin-left: 675px;
 margin-top: 30px;
 }
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-top: 30px;
+    margin-left: 710px;
 }
 
 .dropdown-content {
@@ -75,7 +82,7 @@ margin-top: 30px;
 }
 
 .dropbtn {
-    background-color: #2f5ea5;
+    background-color: #ffffff;
     border: solid 2px black;
     width: 100px;
     height: 30px;
@@ -84,7 +91,7 @@ margin-top: 30px;
  h2 {
     text-align: center;
     margin-top: 40px;
-    color: rgb(2, 1, 1);
+    color: rgb(249, 249, 249);
 }
 
 .carosello {
@@ -106,20 +113,87 @@ margin-top: 30px;
     margin-left: 600px;
     margin-top: 40px;
 }
-body {
-    background:linear-gradient(to bottom right,rgb(8, 162, 190),rgb(255, 255, 255),rgb(16, 9, 206));
-    animation: BG 5s ease infinite;
-}
 
 .acqbtn {
-    background-color: #2f5ea5;
+    background-color: #fefefe;
     border: solid 2px black;
     width: 100px;
     height: 30px;
     justify-content: center;
-    margin-top: 40px;
-    margin-left: 700px;
-    color: white;
+    margin-left: 750px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-   
+}
+.acqbtn:hover {
+    background-color: #b55656;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(1, 0, 0, 0.1);
+}
+.titoletto {
+    text-align: center;
+    color: black;
+}
+.input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+   .registrati{
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registrati:hover {
+    background-color: #0056b3;
+ }
+ .bottone-ordini {
+    margin-left: 720px;
+    margin-top: 300px;   
+     width: 120px;
+    height: 40px;
+    background-color: #efe710;
+    border: 1px solid black;
+    font-size: large;
+ }
+ .carrello {
+    margin-left: 720px;
+    margin-top: 70px;   
+     width: 120px;
+    height: 40px;
+    background-color: #efe710;
+    border: 1px solid black;
+    font-size: large;
+ }
+.ordini-titolo {
+    font-size: larger;
+    margin-top: 200px;
+}
+.carosello-seriea {
+    display: flex;
+}
+.carosello-item-seriea {
+    max-width: 15px;
+    max-height: 15px;
 }
