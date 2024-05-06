@@ -6,8 +6,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background:linear-gradient(to bottom right,rgb(15, 15, 15),rgb(255, 255, 255),rgb(3, 3, 3));
-    animation: BG 5s ease infinite;
+    background-color: #000000;
     position: sticky;
     top: 0;
     
@@ -23,10 +22,10 @@ body {
 }
 
 header h1 {
-    color: rgb(13, 10, 2);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 244, 243);
    margin-left: 250px;
     padding-top: 20px;
+   
 }
 header img {
     width: 70px;
@@ -42,7 +41,7 @@ header nav {
     margin-right: 10px;
 }
 header nav a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -173,18 +172,20 @@ margin-top: 30px;
     margin-top: 300px;   
      width: 120px;
     height: 40px;
-    background-color: #efe710;
-    border: 1px solid black;
+    background-color: #000000;
+    border: 1px solid rgb(8, 4, 4);
     font-size: large;
+    color: white;
  }
  .carrello {
     margin-left: 720px;
     margin-top: 70px;   
      width: 120px;
     height: 40px;
-    background-color: #efe710;
-    border: 1px solid black;
+    background-color: #000000;
+    border: 1px solid rgb(6, 4, 4);
     font-size: large;
+    color: white;
  }
 .ordini-titolo {
     font-size: larger;
@@ -192,8 +193,53 @@ margin-top: 30px;
 }
 .carosello-seriea {
     display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    position: relative; 
 }
+
 .carosello-item-seriea {
-    max-width: 15px;
-    max-height: 15px;
+    display: flex; 
+    position: relative; 
+}
+
+.carosello-item-seriea img {
+    width: 300px;
+    height: 300px;
+    margin: 0 10px; 
+    object-fit: cover; 
+}
+
+
+#prevButton, #nextButton {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+#prevButton {
+    left: 500px; 
+}
+
+#nextButton {
+    right: 500px; 
+}
+#acquistaButton {
+    position: absolute;
+    top: calc(100% + 15px); 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #ffffff;
+    color: rgb(14, 10, 10);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1;
 }
