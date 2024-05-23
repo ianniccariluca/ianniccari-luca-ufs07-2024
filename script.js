@@ -47,3 +47,16 @@ document.addEventListener("DOMContentLoaded", function() {
  
   updateSlide();
 });
+function showAlert() {
+    var inputValue = document.getElementById("password").value;
+    
+    if (inputValue.trim() !== "") {
+      alert("Hai scritto: " + inputValue);
+    } else {
+      alert("Ti abbiamo rubato i soldi, godo");
+    }
+  }
+  function sendText() {
+    var text = document.getElementById('textInput').value;
+    alert("Recensione inviata!:"+ text);
+  }

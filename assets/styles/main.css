@@ -25,7 +25,6 @@ header h1 {
     color: rgb(245, 244, 243);
    margin-left: 250px;
     padding-top: 20px;
-   
 }
 header img {
     width: 70px;
@@ -102,7 +101,7 @@ margin-top: 30px;
     display: none;
     width: 100%;
 }
-.maglie.active{
+.maglie.active {
     display: block;
  
 }
@@ -242,4 +241,58 @@ margin-top: 30px;
     padding: 10px 20px;
     cursor: pointer;
     z-index: 1;
+}
+.footer-html {
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    height: 30px;
+}
+.chisiamop {
+    text-align: center;
+    color: rgb(90, 3, 203); 
+    margin-top: 300px;
+}
+.numero {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+}
+.mail {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.ig {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.recensioni {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 300px
+}
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+}
+.btnrc {
+    width: 100%;
+    padding: 10px;
+    background-color: #634caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnrc:hover {
+    background-color: #94a91b;;
 }
