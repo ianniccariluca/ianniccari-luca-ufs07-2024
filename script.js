@@ -53,7 +53,7 @@ function showAlert() {
     if (inputValue.trim() !== "") {
       alert("Hai scritto: " + inputValue);
     } else {
-      alert("Ti abbiamo rubato i soldi, godo");
+      alert("Pagamento effettuato con successo");
     }
   }
   function sendText() {
